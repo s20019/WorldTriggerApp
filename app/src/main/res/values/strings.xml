@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ワールドトリガー適正診断</string>
+    <string name="title_upper">ワールドトリガー</string>
+    <string name="title_middle">ポジション</string>
+    <string name="title_lower">適正診断</string>
+    <string name="btn_start">スタート</string>
+    <string name="btn_yes">YES</string>
+    <string name="btn_no">NO</string>
+    <string name="position" />
+    <string name="sample1">パーフェクトオールラウンダー</string>
+    <string name="sample2">左フックからお菓子作りまで！</string>
+    <string name="sample3">トリオン怪獣を弟子にできるぞ！</string>
+    <string name="finish">終了</string>
+</resources>
