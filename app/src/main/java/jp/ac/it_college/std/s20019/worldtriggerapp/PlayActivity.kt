@@ -38,17 +38,17 @@ class PlayActivity : AppCompatActivity() {
             // YESの場合は末尾に２が追加される
             s += plus2
 
-            SensorySniper(s)
-            PerfectAllRounder(s)
-            SurpriseAttacker(s)
-            CrazyAttacker(s)
-            NaturalAttacker(s)
-            CrossrangeAllRounder(s)
-            MiddlerangeAllRounder(s)
+            Osamu(s)
             Shooter(s)
+            SensorySniper(s)
+            CrazyAttacker(s)
             TacticsSniper(s)
             HappyOperator(s)
-            Osamu(s)
+            NaturalAttacker(s)
+            SurpriseAttacker(s)
+            PerfectAllRounder(s)
+            CrossrangeAllRounder(s)
+            MiddlerangeAllRounder(s)
 
             binding.question.text = triggerObj.getString(s)
         }
@@ -57,16 +57,16 @@ class PlayActivity : AppCompatActivity() {
             // NOの場合は末尾に１が追加される
             s += plus1
 
-            SensorySniper(s)
+            MiddlerangeAllRounder(s)
+            CrossrangeAllRounder(s)
             PerfectAllRounder(s)
             SurpriseAttacker(s)
-            CrazyAttacker(s)
             NaturalAttacker(s)
-            CrossrangeAllRounder(s)
-            MiddlerangeAllRounder(s)
-            Shooter(s)
-            TacticsSniper(s)
             HappyOperator(s)
+            TacticsSniper(s)
+            CrazyAttacker(s)
+            SensorySniper(s)
+            Shooter(s)
             Osamu(s)
 
             binding.question.text = triggerObj.getString(s)
